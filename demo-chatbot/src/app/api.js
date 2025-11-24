@@ -4,7 +4,6 @@ If a question is not related to Sunrise Kitchen, briefly say you can only help w
 Also, avoid lengthy answers and any bold words or italics.
 `;
 
-
 export async function sendToAI(chatHistory) {
   const apiKey = process.env.NEXT_PUBLIC_OPENAI_API_KEY;
 
